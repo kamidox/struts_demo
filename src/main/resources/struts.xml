@@ -15,6 +15,10 @@
         <action name="hello" class="com.kamidox.helloworld.action.HelloWorldAction" method="execute">
             <result name="success">/HelloWorld.jsp</result>
         </action>
+
+        <action name="register" class="com.kamidox.helloworld.action.RegisterAction" method="execute">
+            <result name="success">/registerResult.jsp</result>
+        </action>
     </package>
 
 </struts>
