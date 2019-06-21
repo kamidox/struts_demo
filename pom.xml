@@ -13,8 +13,10 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <struts2.version>2.5.17</struts2.version>
-        <log4j2.version>2.8.2</log4j2.version>
-        <jetty-plugin.version>9.0.0.v20130308</jetty-plugin.version>
+        <log4j2.version>2.9.1</log4j2.version>
+        <jetty-plugin.version>9.4.19.v20190610</jetty-plugin.version>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
     </properties>
 
     <dependencies>
