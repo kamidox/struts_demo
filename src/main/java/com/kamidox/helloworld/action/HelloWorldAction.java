@@ -5,6 +5,7 @@ import com.kamidox.helloworld.model.MessageStore;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class HelloWorldAction extends ActionSupport {
+    private static final long serialVersionUID = -4616302113765870261L;
     private MessageStore messageStore;
     private String userName;
 
