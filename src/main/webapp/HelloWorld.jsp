@@ -7,6 +7,8 @@
     <title>Hello World!</title>
   </head>
   <body>
+    <h1><s:text name="greeting" /></h1>
+
     <p>I've said hello <s:property value="messageStore.helloCount" /> times!</p>
 
     <h2><s:property value="messageStore.message" /></h2>
@@ -14,5 +16,9 @@
     <h2><s:property value="messageStore" /></h2>
 
     <p><a href="<s:url action='index'/>">Home Page</a></p>
+
+    <hr />
+    <s:text name="contact" />
+
   </body>
 </html>

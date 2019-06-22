@@ -9,7 +9,7 @@
   <body>
     <h3>Thank you for registering for a prize.</h3>
 
-    <p>Your registration information: <s:property value="personBean" /> </p>
+    <h3><s:text name="thankyou" /></h3>
 
     <p><a href="<s:url action='index' />" >Return to home page</a>.</p>
   </body>

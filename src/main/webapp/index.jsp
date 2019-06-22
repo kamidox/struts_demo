@@ -16,6 +16,13 @@
 
     <p><a href="${helloLink}">Hello Bruce Phillips</a></p>
 
+    <s:url action="hello" var="helloLinkCN">
+        <s:param name="userName">Joey</s:param>
+        <s:param name="request_locale">zh</s:param>
+    </s:url>
+
+    <p><a href="${helloLinkCN}">Hello Joey</a></p>
+
     <p>Get your own personal hello by filling out and submitting this form.</p>
 
     <s:form action="hello">
@@ -24,6 +31,12 @@
     </s:form>
 
     <p><a href="register.jsp">Please register</a> for our prize drawing.</p>
+
+    <s:url action="registerInput" var="registerInputLink" />
+    <p><a href="${registerInputLink}">Please register</a> for our prize drawing.</p>
+
+    <hr />
+    <s:text name="contact" />
 
   </body>
 </html>
